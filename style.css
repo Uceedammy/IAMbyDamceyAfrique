@@ -1,0 +1,140 @@
+html, body, ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0px;
+}
+a {
+	color: white;
+}
+a:hover {
+	color: #eee;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	background: #000;
+	font: 12px arial, sans-serif;
+	color: #A7A7A7;
+	padding: 30px 5px;
+	text-align: center;
+}
+/************************** wrappers **********************************/
+#wrapper {
+	text-align: left;
+	width: 754px;
+	margin: auto;
+	background: url(images/body_bg.gif) repeat-y;
+}
+#body {
+	position: relative;
+}
+#body-top {
+	background: top left url(images/bar.gif) no-repeat;
+}
+#body-bot {
+	background: bottom left url(images/bar.gif) no-repeat;
+}
+/************************** Header **********************************/
+h1 {
+	padding: 17px 0px 0px 95px;
+}
+#person {
+	float:right;
+	padding: 17px 15px 0px 0px;
+	right: 20px;
+	display:inline;			
+}
+#about {
+	float:left;
+	margin: 20px 0px 0px 131px;
+	width: 256px;
+	height: 320px;
+	overflow: auto;
+	text-align: justify;
+	display:inline;
+}
+.first-letter {
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+/************************** Navigation **********************************/
+#header ul {
+	margin: 0px 17px 20px 99px;
+	border: 2px solid white;
+	padding: 5px;
+	display:inline;
+	float: left;
+	width:625px;
+}
+#header li {
+	display:inline;
+	padding: 13px;
+}
+#header ul a {
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #f3e9d9;
+	text-transform: uppercase;
+}
+#header ul a:hover{
+	color: #fff;
+}
+/************************** Tray **********************************/
+#tray {
+	padding-left: 130px;
+	padding-right: 45px;
+}
+#tray-left {
+	float: left;
+	width: 255px;
+}
+#tray-right {
+	float: right;
+	width: 302px;
+}
+#tray-left .left {
+	margin-right: 12px;
+}
+#tray h2 {
+	margin-bottom: 16px;
+}
+#tray p {
+	margin: 0px;
+	margin-bottom: 3px;
+}
+#tray-left .more {
+	padding-right: 12px;
+}
+/************************** Footer **********************************/
+#footer {
+	text-align: center;
+	color: white;
+	margin-left: 95px;
+	margin-right: 14px;
+	background: top left url(images/body_bot_left.gif) no-repeat;
+}
+#footer-right {
+	padding-top: 33px;
+	padding-bottom: 22px;
+	background: top right url(images/body_bot_right.gif) no-repeat;
+}
